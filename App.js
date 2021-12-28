@@ -72,13 +72,10 @@ const App: () => Node = () => {
           }}>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
-            POOP IN MY ASS.
-          </Section>
-          <Section title="Sup cocksucker">
-            You're a cock sucker dude
+            screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
-            Dad is awesome
+            <ReloadInstructions />
           </Section>
           <Section title="Debug">
             <DebugInstructions />
